@@ -14,4 +14,11 @@ public class buySellStocks {
         }
         return maxProfit;
     }
+
+    public static void main(String[] args) {
+        int[] stocks = {7,1,5,3,6,4};
+        buySellStocks s = new buySellStocks();
+        int profit = s.maxProfit(stocks);
+        System.out.println(profit);
+    }
 }
